@@ -6,15 +6,46 @@
 
 //Faça um programa em que o usuário deverá digitar uma nota para 3 alunos em 4 disciplinas diferentes e, em seguida, calcula e exibe as médias por aluno e por disciplina. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 int main() {
 
 	int n[3][4];
 	
 		setlocale(LC_ALL, "Portuguese");
 
-
-
-    
     int alunos = 3;
     int disciplinas = 4;
     float notas[3][4]; 

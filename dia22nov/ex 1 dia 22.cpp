@@ -21,7 +21,7 @@ int main() {
 	
    
 	for (i=0; i<5; i++){
-		soma += v[i];
+		soma += v[i]; //média é igual a média + valor
 	}
 	
 	 printf("a soma dos valores é de: %i", soma);
