@@ -176,55 +176,25 @@ int main(){
 	*/	
 	
 	
+    int vetor[5];
+	int i;
 	
+	float s =0;
 	
+	for(i=0; i<5; i++ ){// i começa em 0, enquanto i for menor do que 5, vai saltar de 1 em 1 posição
+		printf("digite o dano nº %i \n ", i+1);
+		scanf("%i",&vetor[i]);
+		s+= vetor[i];//variavel s soma ela mesma com o próximo valor
+	}
 	
-	#include <stdio.h>
-
-int main() {
-    // Declaração do vetor para armazenar os valores
-    int valores[5];
-
-    // Leitura dos valores
-    printf("Digite 5 valores inteiros:\n");
-
-    for (int i = 0; i < 5; i++) {
-        printf("Valor %d: ", i + 1);
-        scanf("%d", &valores[i]);
-    }
-
-    // Cálculo da média
-    int soma = 0;
-    for (int i = 0; i < 5; i++) {
-        soma += valores[i];
-    }
-    float media = (float)soma / 5;
-
-    // Apresentação da média
-    printf("\nA média dos valores é: %.2f\n", media);
-
-    // Valores maiores que a média
-    printf("\nValores maiores que a média:\n");
-    for (int i = 0; i < 5; i++) {
-        if (valores[i] > media) {
-            printf("%d\n", valores[i]);
-        }
-    }
-
-    // Valores menores que a média
-    printf("\nValores menores que a média:\n");
-    for (int i = 0; i < 5; i++) {
-        if (valores[i] < media) {
-            printf("%d\n", valores[i]);
-        }
-    }
-
-    return 0;
-}
-
+		printf("dados inseridos:\n " );
+		for(i=0; i<5; i++ ){
+			printf("%i\n",vetor[i]);
+	}
+		
 	
-	
-	
+	printf("resultado da média dos númeors: %f \n", s/5);
+
 	
 	
 	
